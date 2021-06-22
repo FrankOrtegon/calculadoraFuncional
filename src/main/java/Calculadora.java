@@ -24,6 +24,10 @@ public class Calculadora {
             return 1 + dividirNumero(restaNumeros(dividendo ,divisor), divisor);
         }
     }
+
+    public static void main(String[] args) {
+        System.out.println("La multiplicacion es: " + multipllicarNumero(3,5));
+        System.out.println("La division es: " + dividirNumero(100,5));
+    }
 }
 
- 
